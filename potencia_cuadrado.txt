@@ -1,0 +1,4 @@
+public int potencia_Cuadrado (double numero) {
+	double resultado = Math.pow(2, numero);
+	return resultado;
+}
