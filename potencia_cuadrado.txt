@@ -7,3 +7,14 @@ public int raiz_cuadrada (double numero) {
 	double resultado = Math.sqrt(numero);
 	return resultado;
 }
+
+public int potenciaCubo(double numero) {
+	 int valor = numero * numero * numero;
+   return valor;
+}
+
+public int raizcubica(double numero) {
+	 int valor = Math.pow(numero, 1/3); 
+   return valor;
+}
+
